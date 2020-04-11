@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+body {
+  margin: 15px;
+}
+
+* {
+	text-decoration: none;
+	color: black;
+  }
+
+  p {
+	  font-size: 18pt;
+  }
+  
+ .navClass {
+	 display: flex;
+	 justify-content: space-evenly;
+	 align-items: center;
+ } 
+
+ .navLinks {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   align-items: center;
+ }
+ 
+  .navClass a {
+	font-size: 90%;
+	font-family: "Arial", Serif;
+	color: gray;
+  }
+  
+  .navClass img {
+	min-width: 150px;
+  }
+
+  .headerClass {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .headerClass img {
+    width: 85%;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .servicesClass {
+    width: 87%;
+    border-bottom: 1px solid black;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .firstClass {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+  }
+
+  .secondClass {
+    display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+  }
+
+  .thirdClass {
+    display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+  }
+
+  .footerClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .footerPara {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  .footerClass img {
+    width: 40%
+  }
+
+  .digitalClass {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  .uxClass {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  .marketingClass {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  .webClass {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  .iosClass {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  .androidClass {
+    background: lightgray;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+    width: 40%;
+  }
+
+  @media (max-width: 800px) {
+    .navClass {
+      flex-direction: column-reverse;
+      line-height: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navLinks {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .featAndAbout {
+      flex-direction: column;
+  }
+
+  .link {
+    border-top: 1px solid black;
+    padding: 0% 100% 0% 100%;
+  }
+
+  .link6 {
+      border-bottom: 1px solid black;
+  }
+
+  .headerClass img {
+    width: 100%
+  }
+
+  .servicesClass {
+    width: 90%;
+  }
+
+  .firstClass {
+    flex-direction: column;
+  }
+
+  .digitalClass {
+    width: 90%;
+  }
+
+  .uxClass {
+    width: 90%;
+  }
+
+  .marketingClass {
+    width: 90%;
+  }
+
+  .webClass {
+    width: 90%;
+  }
+
+  .iosClass {
+    width: 90%;
+  }
+
+  .androidClass {
+    width: 90%;
+  }
+
+  .footerPara {
+    width: 90%;
+  }
+
+  .footerClass img{
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  .secondClass {
+    flex-direction: column;
+  }
+
+  .thirdClass {
+    flex-direction: column;
+  }
+
+  .footerClass {
+    flex-direction: column;
+  }
+}
